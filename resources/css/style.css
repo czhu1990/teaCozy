@@ -1,0 +1,169 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  margin: 0;
+}
+
+/* header */
+
+header {
+  position: fixed;
+  width: 100%;
+  height: 69px;
+  display: flex;
+  align-items: center;
+  z-index: 10;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+}
+
+header img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+nav {
+  flex-grow: 1;
+  text-align: right;
+}
+
+a {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  text-decoration: underline;
+  padding: 10px;
+}
+
+/* main */
+
+.main {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 70px;
+  left: 0;
+}
+
+.mission {
+  width: 1200px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../images/img-mission-background.jpg');
+  margin-bottom: 40px;
+}
+
+h2 {
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 12px;
+}
+
+h4 {
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+}
+
+.month {
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.teabox {
+  width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tea img {
+  width: 300px;
+  height: 200px;
+}
+
+.tea {
+  padding: 15px;
+}
+
+.locations {
+  width: 1200px;
+  height: 500px;
+  background-image: url('../images/img-locations-background.jpg');
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.locationtitle {
+  padding: 15px;
+  background-color: transparent;
+}
+
+.locationbox {
+  width: 980px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.address {
+  width: 300px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: black;
+  margin-bottom: 50px;
+}
+
+.address h3 {
+  margin: 0;
+}
+
+/* contact */
+
+.contact {
+  position: relative;
+  top: 70px;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h5 {
+  margin: 15px;
+}
+
+/* footer */
+
+footer {
+  position: relative;
+  top: 70px;
+  width: 100%
+}
+
+.copyright {
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
